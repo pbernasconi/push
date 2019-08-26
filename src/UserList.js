@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import UserItem from './UserItem';
-import 'plaid-threads/lib/all.scss'
+// import 'plaid-threads/lib/all.scss'
 
 class UserList extends Component {
   constructor(props) {
@@ -43,7 +43,7 @@ class UserList extends Component {
           </tr>
         </thead>
         <tbody>
-          { userRows }
+          {userRows}
         </tbody>
       </table>
     );
